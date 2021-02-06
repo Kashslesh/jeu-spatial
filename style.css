@@ -1,24 +1,25 @@
 .spaceship{
-   width: 10vw;
-   position: relative;
-   bottom: 1rem;
-   margin: auto;
-}
-.shot{
-    width: 2vw;
-    position: absolute;
-    bottom: 9rem;
-    margin-left: 48%;
-    animation: shot 0.5s infinite;
-    display: none;
-}
+  position: relative;
+  top: 750px;
+  width: 10vw;
+  left: 50px;
 
-@keyframes shot {
-    0%{top:800px};
-    50%{bottom: 250px}
-    100%{top: 10px};
 }
-html, body {
-    margin: 0;
-    padding: 0;
+.shot {
+  width: 40px;
+  position: relative;
+  top: 700px;
+  left: 120px;
+  animation: shot 0.5s infinite;
+  display: none;
+}
+@keyframes shot {
+  0%{ bottom: 20px;}
+  100% {top: 20px;}
+}
+.spaceShipBlock {
+  width: 100%;
+}
+.container {
+  width: 100%;
 }
